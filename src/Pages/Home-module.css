@@ -1,6 +1,5 @@
 
 .container > .main {
-  font-family: Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -49,7 +48,7 @@
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
 }
 .circle-2 {
-  background: #22c6c6;
+  background: #00c6c6;
   border-radius: 80% 30% 50% 50%/50%;
 }
 .circle-3 {
@@ -58,7 +57,7 @@
   border-radius: 50% 40% 40% 40%/30% 50% 50% 50%;
 }
 .icons {
-  width: 10%;
+  width: 100px;
   display: flex;
   justify-content: space-around;
 }
@@ -74,5 +73,8 @@
   .balls {
     flex-direction: column;
     align-items: center;
+  }
+  .icons {
+    margin: 0 auto;
   }
 }

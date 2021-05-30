@@ -1,11 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-    faGithub,
-    faLinkedin,
-  } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import "./Home-module.css";
+
 const Home = () => {
   return (
     <div>
@@ -24,17 +22,19 @@ const Home = () => {
               </p>
             </div>
             <div className="circle-3">
-              <p>
-                I am looking for a job in Sweden! 
-              </p>
+              <p>I am looking for a job in Sweden!</p>
             </div>
           </div>
-            <div className="icons">
-            <a href="#"><FontAwesomeIcon icon={faGithub} size="lg" color="#000"/></a>
-            <a href="#"><FontAwesomeIcon icon={faLinkedin} size="lg" color="#000"/></a>
-            <a href="#"><FontAwesomeIcon icon={faFilePdf} size="lg" color="#000"/></a>
-            <a href="#"><FontAwesomeIcon icon={faEnvelope} size="lg" color="#000"/></a>
-            </div>
+          <div className="icons">
+            <a href="https://github.com/arisa277">
+              <FontAwesomeIcon icon={faGithub} size="lg" color="#000" />
+            </a>
+            <a href="https://www.linkedin.com/in/arisanii/">
+              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#000" />
+            </a>
+            <FontAwesomeIcon icon={faFilePdf} size="lg" color="#000" />
+            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#000" />
+          </div>
         </div>
       </div>
     </div>
