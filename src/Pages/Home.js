@@ -13,16 +13,16 @@ const Home = () => {
           <p className="job_role">a Frontend Developer.</p>
           <div className="balls">
             <div className="circle-1">
-              <p>I am passionate about writing codes and solving problems</p>
+              I am passionate about building web app with user-friendly design
             </div>
             <div className="circle-2">
-              <p>
+              
                 Skilled in JavaScript, <br />
                 React, Vue, Nuxt, HTML5, CSS3
-              </p>
+              
             </div>
             <div className="circle-3">
-              <p>I am looking for a job in Sweden!</p>
+              I am looking for a job in Sweden!
             </div>
           </div>
           <div className="icons">
