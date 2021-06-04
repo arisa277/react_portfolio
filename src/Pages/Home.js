@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <div className="container">
         <div className="main">
-          <h3>Hello, I’m ARISA NII,</h3>
+          <h3>Hello, I’m <br className="sp-br"/>ARISA NII,</h3>
           <p className="job_role">a Frontend Developer.</p>
           <div className="balls">
             <div className="circle-1">
@@ -27,13 +27,13 @@ const Home = () => {
           </div>
           <div className="icons">
             <a href="https://github.com/arisa277">
-              <FontAwesomeIcon icon={faGithub} size="lg" color="#000" />
+              <FontAwesomeIcon icon={faGithub} size="2x" color="#000" />
             </a>
             <a href="https://www.linkedin.com/in/arisanii/">
-              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#000" />
+              <FontAwesomeIcon icon={faLinkedin} size="2x" color="#000" />
             </a>
-            <FontAwesomeIcon icon={faFilePdf} size="lg" color="#000" />
-            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#000" />
+            <FontAwesomeIcon icon={faFilePdf} size="2x" color="#000" />
+            <FontAwesomeIcon icon={faEnvelope} size="2x" color="#000" />
           </div>
         </div>
       </div>

@@ -1,4 +1,3 @@
-
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./Pages/About";
@@ -10,10 +9,9 @@ function App() {
     <div>
       <Router>
         <div>
-          
-          <Route path="/" component={Home} exact/>
-          <Route path="/About" component={About} exact/>
-          <Route path="/Work" component={Work} exact/>
+          <Route path="/" component={Home} exact />
+          <Route path="/About" component={About} exact />
+          <Route path="/Work" component={Work} exact />
           <Navbar />
         </div>
       </Router>
