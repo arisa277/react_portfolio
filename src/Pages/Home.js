@@ -9,21 +9,20 @@ const Home = () => {
     <div>
       <div className="container">
         <div className="main">
-          <h3>Hello, I’m <br className="sp-br"/>ARISA NII,</h3>
+          <h3>
+            Hello, I’m <br className="sp-br" />
+            ARISA NII,
+          </h3>
           <p className="job_role">a Frontend Developer.</p>
-          <div className="balls">
+          <div className="circles">
             <div className="circle-1">
               I am passionate about building web app with user-friendly design
             </div>
             <div className="circle-2">
-              
-                Skilled in JavaScript, <br />
-                React, Vue, Nuxt, HTML5, CSS3
-              
+              Skilled in JavaScript, <br />
+              React, Vue, Nuxt, HTML5, CSS3
             </div>
-            <div className="circle-3">
-              I am looking for a job in Sweden!
-            </div>
+            <div className="circle-3">I am looking for a job in Sweden!</div>
           </div>
           <div className="icons">
             <a href="https://github.com/arisa277">

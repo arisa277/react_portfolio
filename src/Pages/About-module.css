@@ -1,6 +1,8 @@
 .about_container {
   width: 100%;
+  height: 90vh;
   margin: 0 auto;
+  background: #fff;
 }
 
 .about_title {
