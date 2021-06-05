@@ -1,6 +1,6 @@
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from "./Pages/About";
+import Me from "./Pages/Me";
 import Work from "./Pages/Work";
 import Navbar from "././Components/Navbar";
 
@@ -10,7 +10,7 @@ function App() {
       <Router>
         <div>
           <Route path="/" component={Home} exact />
-          <Route path="/About" component={About} exact />
+          <Route path="/Me" component={Me} exact />
           <Route path="/Work" component={Work} exact />
           <Navbar />
         </div>
