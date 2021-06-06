@@ -25,14 +25,28 @@ const Home = () => {
             <div className="circle-3">I am looking for a job in Sweden!</div>
           </div>
           <div className="icons">
-            <a href="https://github.com/arisa277">
+            <a
+              href="https://github.com/arisa277"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} size="2x" color="#000" />
             </a>
-            <a href="https://www.linkedin.com/in/arisanii/">
+            <a
+              href="https://www.linkedin.com/in/arisanii/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faLinkedin} size="2x" color="#000" />
             </a>
             <FontAwesomeIcon icon={faFilePdf} size="2x" color="#000" />
-            <FontAwesomeIcon icon={faEnvelope} size="2x" color="#000" />
+            <a
+              href="https://aripei27.com/contact"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faEnvelope} size="2x" color="#000" />
+            </a>
           </div>
         </div>
       </div>

@@ -1,22 +1,44 @@
 .about_container {
   width: 100%;
- height: 100vh;
+  height: 100vh;
   margin: 0 auto;
-  flex-direction: column;
+  padding-top: 20px;
+  /* background: url(./images/wanaka.jpg);
+  background-size: cover;
+  background-position: center left;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten; */
 }
 
 .about_title {
   text-align: center;
+  font-size: 40px;
+}
+
+.introduction {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+.about_circles {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .about_circle-1,
 .about_circle-2,
 .about_circle-3,
 .about_circle-4,
-.about_circle-5 {
-  padding: 2em;
+.about_circle-5,
+.about_circle-6,
+.about_circle-7,
+.about_circle-8 {
+  padding: 2.5em;
   width: 100px;
-  height: 110px;
+  height: 100px;
   margin: 0 -10px;
   mix-blend-mode: multiply;
   text-align: center;
@@ -26,26 +48,122 @@
   z-index: 10;
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .about_circle-1 {
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  color: rgba(255, 255, 255, 1);
+  animation: 2s ease 0s 1 normal none running animation;
+}
+.about_circle-1:hover {
+  background: url(./images/DSCF6641.jpg);
+  background-size: cover;
 }
 .about_circle-2 {
   background: rgb(0, 0, 0, 0.075);
   border-radius: 80% 30% 50% 50%/50%;
+  animation: 2s ease 0s 1 normal none running animation;
+}
+.about_circle-2:hover {
+  background: url(./images/IMG_7095.JPG);
+  background-size: cover;
+  background-position: center;
 }
 .about_circle-3 {
-  background: rgb(0, 0, 0, 0.17);
+  background: rgb(0, 0, 0, 0.10);
   margin-left: 0.1em;
   border-radius: 50% 40% 40% 40%/30% 50% 50% 50%;
+  animation: 2s ease 0s 1 normal none running animation;
+}
+.about_circle-3:hover {
+  background: url(./images/IMG_7095.JPG);
+  background-size: cover;
+  background-position: center;
 }
 .about_circle-4 {
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.22);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  animation: 2s ease 0s 1 normal none running animation;
+}
+.about_circle-4:hover {
+  background: url(./images/wanaka.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .about_circle-5 {
-  background: rgba(0, 0, 0, 0.12);
+  background: url(./images/mono-selfie.jpg);
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  transform: rotate(-20deg);
+  margin: 0 10px;
+  justify-content: center;
+}
+
+.about_circle-5:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.insta-icon {
+  transform: rotate(20deg);
+}
+
+.about_circle-6 {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  color: rgba(255, 255, 255, 1);
+  animation: 2s ease 0s 1 normal none running animation;
+}
+.about_circle-6:hover {
+  background: url(./images/IMG_7095.JPG);
+  background-size: cover;
+  background-position: center;
+}
+.about_circle-7 {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 40% 50% 50% 70%/50% 50% 70% 60%;
+  animation: 2s ease 0s 1 normal none running animation;
+}
+.about_circle-7:hover {
+  background: url(./images/IMG_7095.JPG);
+  background-size: cover;
+  background-position: center;
+}
+.about_circle-8 {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 60% 50% 65% 70%/70% 50% 50% 60%;
+  animation: 2s ease 0s 1 normal none running animation;
+}
+.about_circle-8:hover {
+  background: url(./images/IMG_7095.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+@keyframes animation {
+  0% {
+    transform: scale(.3);
+  }
+
+  50% {
+    transform: scale(.6); 
+    background: rgba(0, 0, 0, 0.7)
+  }
+
+  100% {
+    transform: scale(1);
+    background: rgba(0, 0, 0, 0.35)
+  }
+}
+
+@media (max-width: 786px) {
+  .about_circles {
+    flex-direction: column;
+    align-items: center;
+  }
 }

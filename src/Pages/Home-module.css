@@ -1,9 +1,9 @@
 .container {
   background: url(./images/sakura-portfolio.JPG);
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: lighten;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
   background-size: cover;
-  background-position: right center;
+  background-position: right center; 
 }
 .main {
   display: flex;
@@ -44,10 +44,11 @@
 }
 .circle-1,
 .circle-2,
-.circle-3 {
+.circle-3  {
   z-index: 10;
   color: rgb(255, 255, 255);
   font-weight: bold;
+ 
 }
 .circle-1 {
   background: rgba(0, 0, 0, 0.8);
@@ -82,8 +83,8 @@
     text-align: center;
   }
 
-  .main h3 {
-    padding-top: 20px;
+  .main h3{
+   padding-top: 20px;
   }
   .circles {
     flex-direction: column;
