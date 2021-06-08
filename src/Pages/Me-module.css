@@ -23,9 +23,11 @@
 }
 
 .about_circles {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-content: center;
+  grid-template-columns: 180px 180px 180px;
+  grid-template-rows: auto;
 }
 
 .about_circle-1,
@@ -51,10 +53,22 @@
   cursor: pointer;
 }
 
+.about_circle-1:hover,
+.about_circle-2:hover,
+.about_circle-3:hover,
+.about_circle-4:hover,
+.about_circle-6:hover,
+.about_circle-7:hover,
+.about_circle-8:hover {
+  transform: scale(1.1);
+}
+
 .about_circle-1 {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   color: rgba(255, 255, 255, 1);
+  grid-column: 1 /2;
+  grid-row: 1 / 2;
   animation: 2s ease 0s 1 normal none running animation;
 }
 .about_circle-1:hover {
@@ -63,7 +77,9 @@
 }
 .about_circle-2 {
   background: rgb(0, 0, 0, 0.075);
-  border-radius: 80% 30% 50% 50%/50%;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  grid-column: 2 /3;
+  grid-row: 1 / 2;
   animation: 2s ease 0s 1 normal none running animation;
 }
 .about_circle-2:hover {
@@ -73,8 +89,9 @@
 }
 .about_circle-3 {
   background: rgb(0, 0, 0, 0.10);
-  margin-left: 0.1em;
   border-radius: 50% 40% 40% 40%/30% 50% 50% 50%;
+  grid-column: 3 /4;
+  grid-row: 1 / 2;
   animation: 2s ease 0s 1 normal none running animation;
 }
 .about_circle-3:hover {
@@ -85,6 +102,8 @@
 .about_circle-4 {
   background: rgba(0, 0, 0, 0.22);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  grid-column: 1 /2;
+  grid-row: 2 / 3;
   animation: 2s ease 0s 1 normal none running animation;
 }
 .about_circle-4:hover {
@@ -101,6 +120,8 @@
   transform: rotate(-20deg);
   margin: 0 10px;
   justify-content: center;
+  grid-column: 2 /3;
+  grid-row: 2 / 3;
 }
 
 .about_circle-5:hover {
@@ -115,6 +136,9 @@
   background: rgba(0, 0, 0, 0.4);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   color: rgba(255, 255, 255, 1);
+  grid-column: 3 /4;
+  grid-row: 2 / 3;
+  margin: 0 0.8em;
   animation: 2s ease 0s 1 normal none running animation;
 }
 .about_circle-6:hover {
@@ -122,6 +146,12 @@
   background-size: cover;
   background-position: center;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .about_circle-7 {
   background: rgba(0, 0, 0, 0.12);
   border-radius: 40% 50% 50% 70%/50% 50% 70% 60%;
@@ -163,7 +193,25 @@
 
 @media (max-width: 786px) {
   .about_circles {
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 180px 180px;
   }
+  .about_circle-3 {
+   grid-column: 1 /2;
+   grid-row: 2 /3;
+  }
+  .about_circle-4 {
+    grid-column: 2 /3;
+    grid-row: 2 / 3;
+  }
+  .about_circle-5 {
+    grid-column: 1 /2;
+    grid-row: 3 / 4;
+  }
+  .about_circle-6 {
+    grid-column: 2 /3;
+    grid-row: 3 / 4;
+  }
+  
 }

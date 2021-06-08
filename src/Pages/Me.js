@@ -15,8 +15,6 @@ const Me = () => {
         <div className="about_circle-1">I love to learn new things</div>
         <div className="about_circle-2">and solving problems.</div>
         <div className="about_circle-3"></div>
-      </div>
-      <div className="about_circles">
         <div className="about_circle-4">Love Photography and Traveling.</div>
         <div className="about_circle-5">
           <a
@@ -34,7 +32,7 @@ const Me = () => {
         </div>
         <div className="about_circle-6"> My favorite camera is FUJIFILM.</div>
       </div>
-      <div className="about_circles">
+      <div className="wrapper">
         <div className="about_circle-7">
           My favorite country is New Zealand.
         </div>
