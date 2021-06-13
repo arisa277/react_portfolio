@@ -2,6 +2,13 @@
   text-align: center;
   width: 100%;
   padding-top: 20px;
+  background: url(./images/work_sakura.JPG);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  background-attachment: scroll;
 }
 .work_container p {
   margin-bottom: 20px;
@@ -77,8 +84,7 @@
 
 @media (max-width: 786px) {
   .work_container {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.3);
+   background-size: cover;
   }
   .projects {
     display: block;
@@ -87,7 +93,7 @@
   .project {
     display: block;
     width: 500px;
-    background: rosybrown;
+    
   }
   .image img {
     width: 150px;

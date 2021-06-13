@@ -1,5 +1,5 @@
 .container {
-  background: url(./images/sakura-portfolio.JPG);
+  background: url(./images/home_sakura.JPG);
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
   background-size: cover;
@@ -72,7 +72,7 @@
 @media (max-width: 786px) {
   .container {
     width: 100%;
-    height: 1070px;
+    height: auto;
     background-position: center center;
     background-repeat: no-repeat;
   }

@@ -64,7 +64,7 @@ const Works = () => {
             </p>
             <div className="btn">
               <a
-                href="https://react-diary-ea33b.web.app"
+                href="https://vocab-app-c8b82.web.app/"
                 target="_blank"
                 rel="noreferrer"
               >
