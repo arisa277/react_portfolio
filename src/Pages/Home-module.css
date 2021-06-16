@@ -3,7 +3,7 @@
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
   background-size: cover;
-  background-position: right center; 
+  background-position: center right; 
 }
 .main {
   display: flex;
@@ -72,7 +72,7 @@
 @media (max-width: 786px) {
   .container {
     width: 100%;
-    height: auto;
+    min-height: 1070px;
     background-position: center center;
     background-repeat: no-repeat;
   }

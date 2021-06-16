@@ -10,15 +10,16 @@ const Works = () => {
   return (
     <div className="work_container">
       <h1>Works</h1>
-      <p>These are my personal projects. Please take a look!</p>
+      <p>These are my personal projects. <br/>Please take a look!</p>
       <div className="projects">
-        <div className="project">
+        {/* mood tracker */}
+        <div className="project project_1">
           <div className="image">
             <img src={Diary} alt="diary-app" />
           </div>
           <div className="work_description right">
             Mood Tracker
-            <p>
+            <p className="language">
               React / Firebase
               <a
                 href="https://github.com/arisa277/Vocab-app"
@@ -44,10 +45,11 @@ const Works = () => {
             </div>
           </div>
         </div>
-        <div className="project">
+        {/* vocab test */}
+        <div className="project project_2">
           <div className="work_description left">
             Vocab Test
-            <p>
+            <p className="language">
               Vue / Nuxt
               <a
                 href="https://vocab-app-c8b82.web.app"
@@ -76,13 +78,14 @@ const Works = () => {
             <img src={Vocab} alt="vocab-app" />
           </div>
         </div>
-        <div className="project">
+        {/* todo list */}
+        <div className="project project_3">
           <div className="image">
             <img src={Todo} alt="todo-app" />
           </div>
           <div className="work_description right">
             To-Do List
-            <p>
+            <p className="language">
               React
               <a
                 href="https://github.com/arisa277/react-todo-app"
@@ -108,10 +111,11 @@ const Works = () => {
             </div>
           </div>
         </div>
-        <div className="project">
+        {/* gatsby blog */}
+        <div className="project project_4">
           <div className="work_description left">
             Gatsby Blog
-            <p>
+            <p className="language">
               Gatsby / Netlify
               <a
                 href="https://github.com/arisa277/gatsby-blog"
