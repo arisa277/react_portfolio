@@ -1,8 +1,8 @@
 import "./Work-module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Diary from "./images/mood-tracker.jpg";
-import Vocab from "./images/vocab-app.jpg";
-import Todo from "./images/todo.jpg";
+import Diary from "./images/tracker.jpg";
+import Vocab from "./images/vocab.jpg";
+import Todo from "./images/todolist.jpg";
 import Blog from "./images/gatsby.jpg";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -31,8 +31,8 @@ const Works = () => {
               </a>
             </p>
             <p>
-              A diary application using React and Firebase. You can write your
-              feeling with emoji.
+              A diary application written in React and Firebase. You can write your
+              feelings with emojis.
             </p>
             <div className="btn">
               <a
@@ -61,7 +61,7 @@ const Works = () => {
               </a>
             </p>
             <p>
-              Since I am struggling with memorizing Swedish, I made a typing
+              Since I am struggling to learn Swedish, I made a typing
               test application using Nuxt.
             </p>
             <div className="btn">

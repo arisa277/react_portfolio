@@ -7,21 +7,24 @@ const Me = () => {
     <div className="about_container">
       <div className="main">
         <h3 className="about_title">Me</h3>
-        <p className="introduction">
-          I would be grateful <br className="sp-br" />
-          if you're interested in me! <br />
+        <div className="introduction">
+         <p>I would be grateful for your interst! <br />
           I am working as a frontend developer <br className="sp-br" />
           in Oita, Japan.
           <br />
-        </p>
+         </p> 
+        </div>
         <div className="about_circles">
           
-            <div className="about_circle-1">I love to learn new things</div>
-            <div className="about_circle-2">and solving problems.</div>
-            <div className="about_circle-3"></div>
-         
+            <div className="about_circle-1">Love to learn new things and solving problems.</div>
+            <div className="about_circle-2">
+            I am a bookworm.
+            </div>
+            <div className="about_circle-3">
+            Love traveling. My favorite is New Zealand! 
+            </div>
             <div className="about_circle-4">
-              Love Photography and Traveling.
+            Since I was 18y old, my passion is taking photos.
             </div>
             <div className="about_circle-5">
               <a

@@ -17,7 +17,7 @@
 .introduction {
   text-align: center;
   font-size: 15pt;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .about_circles {
@@ -37,8 +37,8 @@
 .about_circle-7,
 .about_circle-8 {
   padding: 2.5em;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   margin: 0 -10px;
   mix-blend-mode: multiply;
   text-align: center;
@@ -48,10 +48,11 @@
   z-index: 10;
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
+  color: rgba(255, 255, 255, 1);
 }
 
 .about_circle-1 {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   color: rgba(255, 255, 255, 1);
   grid-column: 1 /2;
@@ -59,20 +60,22 @@
 }
 
 .about_circle-2 {
-  background: rgb(0, 0, 0, 0.075);
+  background: rgb(0, 0, 0, 0.45);
+  color: rgba(255, 255, 255, 1);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   grid-column: 2 /3;
   grid-row: 1 / 2;
 }
 .about_circle-3 {
-  background: rgb(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 1);
   border-radius: 50% 40% 40% 40%/30% 50% 50% 50%;
   grid-column: 3 /4;
   grid-row: 1 / 2;
 }
 
 .about_circle-4 {
-  background: rgba(0, 0, 0, 0.22);
+  background: rgba(0, 0, 0, 0.44);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   grid-column: 1 /2;
   grid-row: 2 / 3;
@@ -81,7 +84,7 @@
 .about_circle-5 {
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   margin: 0 10px;
-  background: rgba(0, 0, 0, 0.22);
+  background: rgba(0, 0, 0, 0.41);
   justify-content: center;
   grid-column: 2 /3;
   grid-row: 2 / 3;
@@ -89,11 +92,11 @@
 }
 
 .about_circle-5:hover {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .about_circle-6 {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.47);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   color: rgba(255, 255, 255, 1);
   grid-column: 3 /4;
@@ -103,11 +106,19 @@
 
 @media (max-width: 786px) {
   .about_container {
-    min-height: 900px;
+    min-height: 850px;
   }
 
   .sp-br {
     display: block;
+  }
+
+  .introduction {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    margin: 20px auto;
   }
 
   .about_circles {
