@@ -39,7 +39,6 @@ const Home = () => {
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" color="#000" />
             </a>
-            <FontAwesomeIcon icon={faFilePdf} size="2x" color="#000" />
             <a
               href="https://aripei27.com/contact"
               target="_blank"

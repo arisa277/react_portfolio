@@ -52,7 +52,7 @@
 }
 
 .about_circle-1 {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   color: rgba(255, 255, 255, 1);
   grid-column: 1 /2;
@@ -75,7 +75,7 @@
 }
 
 .about_circle-4 {
-  background: rgba(0, 0, 0, 0.44);
+  background: rgba(0, 0, 0, 0.55);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   grid-column: 1 /2;
   grid-row: 2 / 3;
@@ -84,7 +84,11 @@
 .about_circle-5 {
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   margin: 0 10px;
-  background: rgba(0, 0, 0, 0.41);
+  background: url(./images/selfie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.55);
+  background-blend-mode: lighten;
   justify-content: center;
   grid-column: 2 /3;
   grid-row: 2 / 3;
@@ -96,7 +100,7 @@
 }
 
 .about_circle-6 {
-  background: rgba(0, 0, 0, 0.47);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   color: rgba(255, 255, 255, 1);
   grid-column: 3 /4;
