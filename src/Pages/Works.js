@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Diary from "./images/tracker.jpg";
 import Vocab from "./images/vocab.jpg";
 import Todo from "./images/todolist.jpg";
-import Blog from "./images/gatsby.jpg";
+import Blog from "./images/blog.jpg";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Works = () => {
