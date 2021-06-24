@@ -15,7 +15,6 @@ const Me = () => {
          </p> 
         </div>
         <div className="about_circles">
-          
             <div className="about_circle-1">Love to learn new things and solving problems.</div>
             <div className="about_circle-2">
             Stayed in New Zealand for 1 year,

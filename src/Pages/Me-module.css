@@ -110,7 +110,7 @@
 
 @media (max-width: 786px) {
   .about_container {
-    min-height: 850px;
+    min-height: 980px;
   }
 
   .sp-br {
@@ -129,7 +129,7 @@
     width: 100%;
     margin: 0 auto;
     padding-bottom: 70px;
-    grid-template-columns: 160px 160px;
+    grid-template-columns: 160px 170px;
   }
 
   .about_circle-1,
@@ -140,11 +140,11 @@
   .about_circle-6,
   .about_circle-7,
   .about_circle-8 {
-    width: 80px;
-    height: 90px;
-    margin: 0 auto;
+    width: 90px;
+    height: 110px;
     mix-blend-mode: none;
     justify-content: center;
+    padding: 2.7em;
   }
 
   .about_circle-3 {
