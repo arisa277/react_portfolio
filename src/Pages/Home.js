@@ -16,11 +16,11 @@ const Home = () => {
           <p className="job_role">a Frontend Developer.</p>
           <div className="circles">
             <div className="circle-1">
-              I am passionate about building hands-on web app.
+              I am passionate about building hands-on web apps
             </div>
             <div className="circle-2">
               Skilled in JavaScript, <br />
-              React, Vue, Nuxt, HTML5, CSS3
+              React, Vue, Nuxt, HTML5 and CSS3
             </div>
             <div className="circle-3">I am looking for a job in Sweden!</div>
           </div>
@@ -29,6 +29,7 @@ const Home = () => {
               href="https://github.com/arisa277"
               target="_blank"
               rel="noreferrer"
+              className="icon"
             >
               <FontAwesomeIcon icon={faGithub} size="2x" color="#000" />
             </a>
@@ -36,6 +37,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/arisanii/"
               target="_blank"
               rel="noreferrer"
+              className="icon"
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" color="#000" />
             </a>
@@ -43,6 +45,7 @@ const Home = () => {
               href="https://aripei27.com/contact"
               target="_blank"
               rel="noreferrer"
+              className="icon"
             >
               <FontAwesomeIcon icon={faEnvelope} size="2x" color="#000" />
             </a>

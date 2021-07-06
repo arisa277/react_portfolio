@@ -52,7 +52,7 @@
 }
 
 .about_circle-1 {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.55);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   color: rgba(255, 255, 255, 1);
   grid-column: 1 /2;
@@ -60,7 +60,7 @@
 }
 
 .about_circle-2 {
-  background: rgb(0, 0, 0, 0.45);
+  background: rgb(0, 0, 0, 0.67);
   color: rgba(255, 255, 255, 1);
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   grid-column: 2 /3;
@@ -93,10 +93,12 @@
   grid-column: 2 /3;
   grid-row: 2 / 3;
   cursor: pointer;
+  transition: background 0.5s ease-in-out;
 }
 
 .about_circle-5:hover {
   background: rgba(0, 0, 0, 0.2);
+  transition: background 0.2s ease-in-out;
 }
 
 .about_circle-6 {

@@ -30,7 +30,7 @@
 .image img {
   max-width: 250px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 10%;
+  border-radius: 25px;
 }
 
 .work_description {
@@ -39,7 +39,7 @@
   font-size: 22px;
   padding: 1em;
   border-radius: 80% 30% 50% 50%/50%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
 }
 .work_description p {
   font-weight: normal;
