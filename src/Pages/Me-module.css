@@ -142,13 +142,15 @@
   .about_circle-6,
   .about_circle-7,
   .about_circle-8 {
-    width: 90px;
+    width: 100px;
     height: 110px;
     mix-blend-mode: none;
     justify-content: center;
     padding: 2.7em;
   }
-
+  .about_circle-1 {
+    padding: 2.9em;
+  }
   .about_circle-3 {
     grid-column: 1 /2;
     grid-row: 2 /3;
