@@ -20,7 +20,7 @@ const Me = () => {
             Love to learn new things and solving problems
           </div>
           <div className="about_circle-2">Keen to make sustainable codes</div>
-          <div className="about_circle-3">and user-friendly interface!</div>
+          <div className="about_circle-3">And user-friendly interface!</div>
           <div className="about_circle-4">My passion is taking photos</div>
           <div className="about_circle-5">
             <a
