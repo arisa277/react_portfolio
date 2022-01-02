@@ -1,10 +1,10 @@
-.about_container {
+/* .about_container {
   background: url(./images/about_sakura.JPG);
   background-size: cover;
   background-position: center left;
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
-}
+} */
 .sp-br {
   display: none;
 }

@@ -1,6 +1,6 @@
 import "./Me-module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Me = () => {
   return (
@@ -10,12 +10,11 @@ const Me = () => {
         <div className="introduction">
           <p>
             I would be grateful for your interst! <br />
-            I am working as a frontend developer <br className="sp-br" />
-            in Oita, Japan.
+            I am a Frontend Developer based in Stockholm.<br className="sp-br" />
             <br />
           </p>
         </div>
-        <div className="about_circles">
+        {/* <div className="about_circles">
           <div className="about_circle-1">
             Love to learn new things and solving problems
           </div>
@@ -37,7 +36,11 @@ const Me = () => {
             </a>
           </div>
           <div className="about_circle-6"> And also I love reading books!</div>
+        </div> */}
+        <div className="photos">
+
         </div>
+        <button>More Photos</button>
       </div>
     </div>
   );

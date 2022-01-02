@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import "./Home-module.css";
@@ -22,7 +22,7 @@ const Home = () => {
               Skilled in JavaScript, <br />
               React, Vue, Nuxt, HTML5 and CSS3
             </div>
-            <div className="circle-3">I am looking for a job in Sweden!</div>
+            <div className="circle-3">I am looking for a job!</div>
           </div>
           <div className="icons">
             <a
