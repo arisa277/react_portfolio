@@ -37,10 +37,4 @@ nav a {
   header {
     bottom: 10px;
   }
-  nav {
-    background: rgba(255, 255, 255, 0.9);
-  }
-  nav a {
-    color: rgba(0, 0, 0, 0.9);
-  }
 }

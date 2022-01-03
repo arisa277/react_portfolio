@@ -9,7 +9,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Works = () => {
   return (
     <div className="work_container">
-      <h1>Works</h1>
+      <h3 className="works_title">Works</h3>
       <p>These are my personal projects. <br/>Please take a look!</p>
       <div className="projects">
         {/* mood tracker */}
