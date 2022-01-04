@@ -48,7 +48,7 @@ const Me = () => {
         <img src={SecondMiddle} alt="mtcook" onClick={() => openModalPhoto(SecondMiddle)} />
         <img src={SecondRight} alt="mtcookwithsky" onClick={() => openModalPhoto(SecondRight)} />
         <img src={ThirdLeft} alt="cherryblossam" onClick={() => openModalPhoto(ThirdLeft)} />
-        <img src={ThirdMiddle} alt="cornpark" onClick={() => openModalPhoto(ThirdMiddle)} />
+        <img src={ThirdMiddle} alt="cornwallpark" onClick={() => openModalPhoto(ThirdMiddle)} />
         <img src={ThirdRight} alt="cosmos" onClick={() => openModalPhoto(ThirdRight)} />
         <button className="more_btn"><a href="https://www.instagram.com/aripei_27" target="_blank" rel="noreferrer">More photos <FontAwesomeIcon icon={faInstagram} size="lg" color="#fff" spin /></a></button>
       </div>

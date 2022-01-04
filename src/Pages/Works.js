@@ -2,7 +2,7 @@ import "./Work-module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Diary from "./images/tracker.jpg";
 import Vocab from "./images/vocab.jpg";
-import Todo from "./images/todolist.jpg";
+import TicTacToe from "./images/tictactoe.jpg";
 import Blog from "./images/blog.jpg";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -81,14 +81,14 @@ const Works = () => {
         {/* todo list */}
         <div className="project project_3">
           <div className="image">
-            <img src={Todo} alt="todo-app" />
+            <img src={TicTacToe} alt="tic-tac-toe-app" />
           </div>
           <div className="work_description right">
-            To-Do List
+            Tic-Tac-Toe Game
             <p className="language">
-              React
+              Vanilla JS / Socket.io
               <a
-                href="https://github.com/arisa277/react-todo-app"
+                href="https://github.com/arisa277/tic-tac-toe"
                 className="icon"
                 target="_blank"
                 rel="noreferrer"
@@ -97,12 +97,12 @@ const Works = () => {
               </a>
             </p>
             <p>
-              This is a simple To-Do list using React, enabling users to add and
-              update, delete lists.
+              Tic-Tac-Toe game that allows you to play againt other player in real time.
+              Make sure you have another window open before starting the game.
             </p>
             <div className="btn">
               <a
-                href="https://todo-app-734f7.web.app"
+                href="https://tic-tac-toe-nii.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
