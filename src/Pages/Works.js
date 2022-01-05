@@ -48,7 +48,7 @@ const Works = () => {
         {/* vocab test */}
         <div className="project project_2">
           <div className="work_description left">
-            Vocab Test
+            Typying Test
             <p className="language">
               Vue / Nuxt
               <a
@@ -76,39 +76,6 @@ const Works = () => {
           </div>
           <div className="image">
             <img src={Vocab} alt="vocab-app" />
-          </div>
-        </div>
-        {/* todo list */}
-        <div className="project project_3">
-          <div className="image">
-            <img src={TicTacToe} alt="tic-tac-toe-app" />
-          </div>
-          <div className="work_description right">
-            Tic-Tac-Toe Game
-            <p className="language">
-              Vanilla JS / Socket.io
-              <a
-                href="https://github.com/arisa277/tic-tac-toe"
-                className="icon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faGithub} color="#000" />
-              </a>
-            </p>
-            <p>
-              Tic-Tac-Toe game that allows you to play againt other player in real time.
-              Make sure you have another window open before starting the game.
-            </p>
-            <div className="btn">
-              <a
-                href="https://tic-tac-toe-nii.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Find Out More
-              </a>
-            </div>
           </div>
         </div>
         {/* gatsby blog */}
