@@ -52,7 +52,7 @@ const Works = () => {
             <p className="language">
               Vue / Nuxt
               <a
-                href="https://vocab-app-c8b82.web.app"
+                href="https://github.com/arisa277/Vocab-app"
                 className="icon"
                 target="_blank"
                 rel="noreferrer"
