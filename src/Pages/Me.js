@@ -32,7 +32,7 @@ const Me = () => {
       <h3 className="about_title">Me</h3>
       <div className="introduction">
         <p>
-          I would be grateful for your interst! <br />
+          I would be grateful for your interest! <br />
           I am a Frontend Developer based in Stockholm.<br className="sp-br" />
           <br />
           I love writing codes but also I love photography.
